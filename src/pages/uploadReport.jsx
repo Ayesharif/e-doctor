@@ -28,7 +28,7 @@ const UploadReport = () => {
 
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:3000/upload-reports", {
+      const response = await fetch("https://e-doctor-backend.vercel.app/upload-reports", {
         method: "POST",
         body: formData,
         credentials:"include"

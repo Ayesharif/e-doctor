@@ -12,7 +12,7 @@ export default function Nav() {
 useEffect(() => {
   const checkUserAuth = async () => {
     try {
-      const response = await fetch("http://localhost:3000/authMe", {
+      const response = await fetch("https://e-doctor-backend.vercel.app/authMe", {
         method: "GET",
         credentials: "include", 
       });

@@ -37,7 +37,7 @@ const AddVitals = () => {
       };
 
       // 🌐 Send data to backend
-      const response = await fetch("http://localhost:3000/addvitals", {
+      const response = await fetch("https://e-doctor-backend.vercel.app/addvitals", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

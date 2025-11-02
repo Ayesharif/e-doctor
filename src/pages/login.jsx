@@ -34,7 +34,7 @@ export default function Login() {
 
     try {
       // 🌐 Send request to backend
-      const response = await fetch("http://localhost:3000/login", {
+      const response = await fetch("https://e-doctor-backend.vercel.app/login", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   credentials: "include", // ✅ important for cookies
